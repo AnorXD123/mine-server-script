@@ -7,6 +7,8 @@ Bom, basta apenas você entrar na sua /home, depois entrar no minezinn-server, a
  java -Xmx1024M -Xms1024M -jar minecraft_server.1.17.jar nogui 
 # Opções diferentes
 Bem, o que eu não expliquei é que no comando  "java -Xmx1024M -Xms1024M -jar minecraft_server.1.17.jar nogui" é que o 1024M são a quantidade de MB de ram que irá ser dedicada ao minecraft server, e que você pode alterar, e por fim, que você pode executar com gui (ou seja, sem ser apenas no terminal) apenas tirando o comando nogui!
+# Deu erro?
+Uma coisa que eu queria falar é que se você estiver usando uma distro baseada no arch ou em outra distro que não seja debian-based terá que alterar a linha em que se baixa o jdk para adequar ele a seu gerenciador de pacote
 # Vídeo falando
 Bem, eu fiz esse vídeo aqui fazendo uma explicação básica: 
 https://youtu.be/zkIglOTZJzE
